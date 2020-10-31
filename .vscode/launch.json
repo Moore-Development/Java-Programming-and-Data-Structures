@@ -1,0 +1,455 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise11_MoveACircleUsingKeys",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise11_MoveACircleUsingKeys",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise12_BarChart",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter14_javafx_basics.Exercise12_BarChart",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise2_TicTacToe",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter14_javafx_basics.Exercise2_TicTacToe",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestQueueClass<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter10_object_oriented_thinking.TestQueueClass",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise11_SortArrayList<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.Exercise11_SortArrayList",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise12_SumArrayList<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.Exercise12_SumArrayList",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise13_RemoveDuplicates<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.Exercise13_RemoveDuplicates",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise4_MaximumElementInArrayList<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.Exercise4_MaximumElementInArrayList",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise7_ShuffleArrayLIst<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.Exercise7_ShuffleArrayLIst",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SchoolAdmissions<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.SchoolAdmissions",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMyDate<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.TestMyDate",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestMyStack<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter11_inheritance_and_polymorphism.TestMyStack",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WebCrawler<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter12_exception_handling_and_text_io.WebCrawler",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise1_TestTriangle<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter13_abstract_classes_and_interfaces.Exercise1_TestTriangle",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise7_TestColorableInterface<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter13_abstract_classes_and_interfaces.Exercise7_TestColorableInterface",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestComparableTriangle<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter13_abstract_classes_and_interfaces.TestComparableTriangle",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise14_BarChart_v2<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter14_javafx_basics.Exercise14_BarChart_v2",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise3_Display3Cards<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter14_javafx_basics.Exercise3_Display3Cards",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise1_PickFourCards<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise1_PickFourCards",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise3_MoveTheBall<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise3_MoveTheBall",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise1<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise1",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise11<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise11",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise3<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise3",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise5<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise5",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise7<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise7",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise9<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter1_intro.Exercise9",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise10<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise10",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise12<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise12",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise14<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise14",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise16<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise16",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise18<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise18",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise2<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise2",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise20<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise20",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise22<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise22",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise4<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise4",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise6<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise6",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise8<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter2_elementary_programming.Exercise8",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise14_HeadsOrTails<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise14_HeadsOrTails",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise17_RockPaperScissors<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise17_RockPaperScissors",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise2<Java Programming and Data Structures_e74894e4>(1)",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise2",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise24_PickACard<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise24_PickACard",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise4_Months<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise4_Months",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise5<Java Programming and Data Structures_e74894e4>(1)",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise5",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise8<Java Programming and Data Structures_e74894e4>(1)",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.Exercise8",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-exercise10<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter3_selections.exercise10",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise11_Decimal_To_Hex<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter4_math_chars_strings.Exercise11_Decimal_To_Hex",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise8_ASCII<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter4_math_chars_strings.Exercise8_ASCII",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise1<Java Programming and Data Structures_e74894e4>(1)",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise1",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise17_NumberPyramid<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise17_NumberPyramid",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise33_PerfectNumber<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise33_PerfectNumber",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise34_RockPaperScissors<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise34_RockPaperScissors",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise37_DecimalToBinary<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise37_DecimalToBinary",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise40_HeadsOrTails<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise40_HeadsOrTails",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise46_ReverseAString<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter5_loops.Exercise46_ReverseAString",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise30_Craps<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter6_methods.Exercise30_Craps",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise32_ChanceOfWinningCraps<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter6_methods.Exercise32_ChanceOfWinningCraps",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise3_PalindromeInteger<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter6_methods.Exercise3_PalindromeInteger",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise17_SortScores<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter7_single_dimensional_arrays.Exercise17_SortScores",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise35_Hangman<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter7_single_dimensional_arrays.Exercise35_Hangman",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise9_TicTacToe<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter8_multi_dimensional_arrays.Exercise9_TicTacToe",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise8_TestFanClass<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.exercises.chapter9_objects_and_classes.Exercise8_TestFanClass",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testInputValidator<Java Programming and Data Structures_e74894e4>",
+            "request": "launch",
+            "mainClass": "com.brad.helper.input.testInputValidator",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        }
+    ]
+}
