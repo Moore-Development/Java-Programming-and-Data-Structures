@@ -76,7 +76,7 @@ public class Exercise3_MoveTheBall extends Application {
                 new BackgroundFill(Color.BLACK,null,null)));
         
         // scene
-        Scene scene = new Scene(borderPane, 500,500);
+        Scene scene = new Scene(borderPane, 600,600);
         
         // stage
         primaryStage.setTitle("Move the Ball");

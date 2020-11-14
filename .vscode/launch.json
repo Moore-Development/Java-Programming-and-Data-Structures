@@ -6,6 +6,46 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Exercise9_TwoRectanglesIntersect",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter16_javafx_ui_controls_and_multimedia.Exercise9_TwoRectanglesIntersect",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise34_SelfAvoidingRandomWalk",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise34_SelfAvoidingRandomWalk",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise23_AutoResizePolygon",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise23_AutoResizePolygon",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise23_AutoResize",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise23_AutoResize",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise9_DrawLines",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter15_eventdriven_programming_and_animations.Exercise9_DrawLines",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Exercise11_MoveACircleUsingKeys",
             "request": "launch",
             "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
