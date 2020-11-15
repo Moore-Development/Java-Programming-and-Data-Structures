@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Exercise31_ConnectFour",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "com.brad.exercises.chapter16_javafx_ui_controls_and_multimedia.Exercise31_ConnectFour",
+            "projectName": "Java Programming and Data Structures_e74894e4"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Exercise9_TwoRectanglesIntersect",
             "request": "launch",
             "vmArgs": "--module-path C:/Users/User/Documents/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
