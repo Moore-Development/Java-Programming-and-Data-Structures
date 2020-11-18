@@ -14,6 +14,9 @@ import javafx.stage.Stage;
 
 public class Exercise31_ConnectFour extends Application{
 
+    private String turn = "Player1";
+    Column[] columns = new Column[7];
+
     public static void main(String[] args) {
         launch(args);
     }
@@ -26,12 +29,10 @@ public class Exercise31_ConnectFour extends Application{
         board.setStyle("-fx-background-color: green");
         board.setPadding(new Insets(10,10,10,10));
 
-        Row[] rows = new Row[7];
-
         for(int i = 0; i < 7; i++) {
 
             //board.add(cells[i][j] = new Cell(), i, j);
-            board.getChildren().add(rows[i] = new Row());
+            board.getChildren().add(columns[i] = new Column(i));
         }
 
         BorderPane borderPane = new BorderPane();
@@ -46,7 +47,7 @@ public class Exercise31_ConnectFour extends Application{
 
         // (done) user drops a disk by clicking on an availble cell (an unoccupied cell with a downward neighbor occupied)
 
-        // two players take turns dropping red and yellow disks
+        // (done) two players take turns dropping red and yellow disks
 
         // flashes the four winning cells if a player wins (four same-colored cells in a row, column, or diagonal)
 
@@ -56,14 +57,17 @@ public class Exercise31_ConnectFour extends Application{
 
     }
 
-    public class Row extends VBox {
+    public class Column extends VBox {
 
-        public Cell[] cells = new Cell[6];
+        private Cell[] cells = new Cell[6];
+        private int columnNumber;
 
-        public Row() {
+        public Column(int columnNumber) {
+
+            this.columnNumber = columnNumber;
 
             for (int i = 5; i >= 0; i--) {
-                this.getChildren().add(cells[i] = new Cell());
+                this.getChildren().add(cells[i] = new Cell(this.columnNumber, i));
             }
 
             this.setOnMouseClicked(e -> handleMouseClick());
@@ -78,15 +82,23 @@ public class Exercise31_ConnectFour extends Application{
                 }
             }
         }
+
+        public Cell[] getCells() {
+            return this.cells;
+        }
     }
 
     public class Cell extends StackPane {
 
         private char token = ' ';
         private Circle hole;
+        private int row;
+        private int column;
 
-        public Cell() {
+        public Cell(int column, int row) {
 
+            this.row = row;
+            this.column = column;
             this.hole = new Circle(30, Color.WHITE);
             this.getChildren().add(hole);
             setAlignment(hole, Pos.CENTER);
@@ -95,14 +107,60 @@ public class Exercise31_ConnectFour extends Application{
 
         public void setToken() {
 
-            this.token = 'r';
-            this.hole = new Circle(30, Color.RED);
-            this.getChildren().add(hole);
+            if (turn != " ") {
+
+                if (turn == "Player1") {
+                    this.token = 'r';
+                    this.hole = new Circle(30, Color.RED);
+                    turn = "Player2";
+                }
+
+                else if (turn == "Player2") {
+                    this.token = 'y';
+                    this.hole = new Circle(30, Color.YELLOW);
+                    turn = "Player1";
+                }
+                
+                this.getChildren().add(hole);
+                checkWin(this);
+            }
+        }
+
+        public int getColumn() {
+
+            return this.column;
+        }
+
+        public int getRow() {
+
+            return this.row;
         }
 
         public char getToken() {
 
             return this.token;
         }
+    }
+
+    private void checkWin(Cell cell) {
+        
+        // check for vertical four-in-a-rows
+
+        // only check vertical four-in-a-rows after the third row
+        if (cell.getRow() >= 3) {
+
+            // test if the below four cells contain the same token
+            if (cell.getToken() == columns[cell.getColumn()].getCells()[cell.getRow() - 1].getToken()
+                && cell.getToken() == columns[cell.getColumn()].getCells()[cell.getRow() - 2].getToken()
+                && cell.getToken() == columns[cell.getColumn()].getCells()[cell.getRow() - 3].getToken()) {
+
+                    System.out.println("Win");
+            }
+        }
+
+        // check for horizontal four-in-a-rows
+
+        // check for diagonal four-in-a-rows
+
     }
 }
