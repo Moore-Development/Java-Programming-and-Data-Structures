@@ -1,5 +1,5 @@
 # Java Programming and Data Structures
-This repository contains exercises from the Introduction to Java Programming and Data Structures book
+Exercises from the Introduction to Java Programming and Data Structures book
 
 https://www.pearson.com/us/higher-education/program/Liang-Introduction-to-Java-Programming-and-Data-Structures-Comprehensive-Version-Plus-My-Lab-Programming-with-Pearson-e-Text-Access-Card-Package-12th-Edition/PGM2741922.html?tab=contents
 
